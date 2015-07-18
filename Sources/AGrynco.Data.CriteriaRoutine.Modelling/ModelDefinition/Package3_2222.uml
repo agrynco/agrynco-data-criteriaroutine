@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a6c32149-e4a4-4ede-8a60-e28f844b1dcf"
+  name="System"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="142b1319-f957-446e-85dc-8963685d24ef"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ef6c2cc1-2aa6-4899-9315-87b26f0557bb"
+        name="Object"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="28894e76-73a4-4842-b770-18013ecb034b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="93237e29-e26b-400c-aa3e-ffb6726a5cb2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7ffd484-2f40-4e91-9654-5903d3975cec">
+                <propertyInstance
+                  Id="763133cd-cf72-4fef-aa48-2dace87aeab8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="469806e8-63c8-49ee-b4bd-85c90b957280">
+                <propertyInstance
+                  Id="f519f324-433b-4e02-bb47-00a501152349"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b63875f6-aa81-4cee-ac4d-fa0de8f106f3">
+                <propertyInstance
+                  Id="1c1d41ff-c1b9-4bfc-88dd-5c742bb02a31"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="91eed0f6-6092-47ce-92eb-b482510b722b">
+                <propertyInstance
+                  Id="5e5a0a11-a96c-4e26-83fb-a8662cec28a5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08e85cb2-d783-4333-a488-fa455b9e98ae">
+                <propertyInstance
+                  Id="f24a7ae3-3c39-412a-b352-0ac4827ad995"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="db1202aa-95f2-4c57-8d3d-589151479b1d"
+        LastKnownName="Collections"
+        LastKnownLocation="Package4_2222.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0d1040d7-ccf4-4db8-ad20-0e3a1b76d9aa"
+        LastKnownName="Text"
+        LastKnownLocation="Package4_2223.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

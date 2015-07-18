@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="584a6681-cc27-40f2-a576-3b9ed6eb9247"
+  name="ToStringConverters"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="50ce8ff4-94e8-4c33-a8d3-679039d42e8b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DLib.Utils.ObjUtils.ToStringConverters"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="fed85915-6e34-4269-9977-309f1eab2c14"
+        name="ToStringConverter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5cb0b80a-fd9c-4d91-92d0-8bd2137c8a14"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FProjects%2FGrynco%2FAGrynco%2FCriteriaRoutine%2FSources%2Fpackages%2FLib.Utils.ObjUtils.0.64%2Flib%2Fnet45%2FLib.Utils.ObjUtils.dll Namespace%3DLib.Utils.ObjUtils.ToStringConverters Type%3DToStringConverter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2e53e9e1-a09d-4756-90f0-b9d06567c4d0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fdfe3d3e-ac75-42b7-9b22-838414372198">
+                <propertyInstance
+                  Id="e85f8b4b-9a10-4bd8-9bc8-fe26fda1e8b6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce52d8a2-8ee2-413d-8f76-d75e78a23307">
+                <propertyInstance
+                  Id="55c95ff2-7bd6-4e8c-a4d6-a57d50ec1c56"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5ab55290-e1f4-4947-995b-7e2ecce1640e">
+                <propertyInstance
+                  Id="33afa002-10d7-4799-8fe1-781a21ff54aa"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5fd0a539-20ed-4bb7-8154-71bd5715cbb8">
+                <propertyInstance
+                  Id="ea80053a-0c5f-47db-be8b-c995625eb406"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6404bb76-527a-4edd-9d22-5dc72b144ba2">
+                <propertyInstance
+                  Id="d8d90f15-2a71-4eb6-9263-a438a42e1743"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
