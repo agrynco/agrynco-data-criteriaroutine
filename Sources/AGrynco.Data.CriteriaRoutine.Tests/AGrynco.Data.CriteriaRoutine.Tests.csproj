@@ -58,16 +58,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AGrynco.Data.Converters, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AGrynco.Data.Converters.1.0.0.0\lib\net45\AGrynco.Data.Converters.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="AGrynco.Utils.ObjUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AGrynco.Utils.ObjUtils.0.4\lib\net45\AGrynco.Utils.ObjUtils.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Lib.Utils.AssemblyUtils, Version=1.0.0.8, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Lib.Utils.AssemblyUtils.0.65\lib\net45\Lib.Utils.AssemblyUtils.dll</HintPath>
+    <Reference Include="AGrynco.Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AGrynco.Lib.0.5\lib\net45\AGrynco.Lib.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
@@ -86,12 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AuthoringTests.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AGrynco.Data.CriteriaRoutine\AGrynco.Data.CriteriaRoutine.csproj">
-      <Project>{C180D163-F751-4D40-90D8-270624277A9C}</Project>
-      <Name>AGrynco.Data.CriteriaRoutine</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">
@@ -117,6 +103,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AGrynco.Data.CriteriaRoutine\AGrynco.Data.CriteriaRoutine.csproj">
+      <Project>{C180D163-F751-4D40-90D8-270624277A9C}</Project>
+      <Name>AGrynco.Data.CriteriaRoutine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

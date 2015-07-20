@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGrynco.Data.CriteriaRoutine", "AGrynco.Data.CriteriaRoutine\AGrynco.Data.CriteriaRoutine.csproj", "{C180D163-F751-4D40-90D8-270624277A9C}"
 EndProject
@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1F78F7
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
-EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "AGrynco.Data.CriteriaRoutine.Modelling", "AGrynco.Data.CriteriaRoutine.Modelling\AGrynco.Data.CriteriaRoutine.Modelling.modelproj", "{435EE40C-941D-4298-A534-F11D5A7A01A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,10 +28,6 @@ Global
 		{18FB8328-DCEA-4DD2-921F-62B1D3EBB02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18FB8328-DCEA-4DD2-921F-62B1D3EBB02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18FB8328-DCEA-4DD2-921F-62B1D3EBB02F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{435EE40C-941D-4298-A534-F11D5A7A01A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{435EE40C-941D-4298-A534-F11D5A7A01A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{435EE40C-941D-4298-A534-F11D5A7A01A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{435EE40C-941D-4298-A534-F11D5A7A01A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

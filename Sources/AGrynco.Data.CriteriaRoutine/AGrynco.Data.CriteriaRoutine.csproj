@@ -57,16 +57,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AGrynco.Data.Converters, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AGrynco.Data.Converters.1.0.0.0\lib\net45\AGrynco.Data.Converters.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="AGrynco.Utils.ObjUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AGrynco.Utils.ObjUtils.0.3\lib\net45\AGrynco.Utils.ObjUtils.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Lib.Utils.AssemblyUtils">
-      <HintPath>..\packages\Lib.Utils.AssemblyUtils.0.64\lib\net45\Lib.Utils.AssemblyUtils.dll</HintPath>
+    <Reference Include="AGrynco.Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AGrynco.Lib.0.5\lib\net45\AGrynco.Lib.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Core">

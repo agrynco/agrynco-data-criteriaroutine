@@ -1,8 +1,6 @@
 ﻿#region Usings
-using AGrynco.Utils.ObjUtils.ToStringConverters;
-
+using AGrynco.Lib.ToStringConverters;
 using AGrynCo.Data.CriteriaRoutine;
-
 using NUnit.Framework;
 #endregion
 

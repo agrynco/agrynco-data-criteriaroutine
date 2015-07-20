@@ -1,8 +1,7 @@
 #region Usings
 using System.Collections.Generic;
 using System.Text;
-
-using AGrynco.Utils.ObjUtils.ToStringConverters;
+using AGrynco.Lib.ToStringConverters;
 #endregion
 
 namespace AGrynCo.Data.CriteriaRoutine
